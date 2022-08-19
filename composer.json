@@ -1,0 +1,24 @@
+{
+    "name": "ianl28/geiriadur-en-cy",
+    "description": "Dosbarth PHP i gynnig swyddogaethau cysylltieidig gyda'r amedrychiad o eiriau yn ddeugyfeiriadol rhwng Saesneg a Chymraeg yn cynhwys y data ar gyfer y geiriadur.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Ianl28\\GeiriadurEnCy\\": "src/"
+      }
+    },
+    "scripts": {
+      "post-status-cmd": "Ianl28\\StarterFiles\\StarterFiles::run"
+    },
+    "authors": [
+        {
+            "name": "Ian Low",
+            "email": "ianlow28@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ianl28/starter-files": "dev-main"
+    }
+}
